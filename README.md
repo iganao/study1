@@ -43,3 +43,7 @@ a.each do |e|
 
   puts result
 end
+
+◯N分は何秒か
+input_line = gets.to_i
+puts input_line * 60
