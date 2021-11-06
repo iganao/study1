@@ -52,3 +52,8 @@ puts input_line * 60
 ◯Nキロあたり1500グラムのプロテインを飲む
 input_line = gets.to_i
 puts input_line * 1500
+
+◯aメートルの校庭をb週した時の距離
+a= gets.to_i
+b= gets.to_i
+puts a * b
