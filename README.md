@@ -67,3 +67,21 @@ print '今日の天気は'
 print '晴れですね'
 [実行結果]
 こんにちは今日の天気は晴れですね
+
+
+◯長さ n の 2 つの数列 A = {a_1, a_2, ..., a_n}, B = {b_1, b_2, ..., b_n} が与えられます。
+数列の差 C = {b_1-a_1, b_2-a_2, ..., b_n-a_n} を求めてください。
+
+n = gets.to_i
+a = gets.split.map(&:to_i)
+b = gets.split.map(&:to_i)
+
+n.times do |i|
+  ans = b[i] - a[i]
+  print ans
+  if i < n - 1
+    print ' '
+  else
+    puts
+  end
+end
