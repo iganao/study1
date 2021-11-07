@@ -85,3 +85,11 @@ n.times do |i|
     puts
   end
 end
+
+◯取得した数字が偶数か奇数か
+input_line = gets.to_i
+if input_line / 2
+  puts "even"
+else
+  puts "odd"
+end
