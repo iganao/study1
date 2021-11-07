@@ -93,3 +93,7 @@ if input_line / 2
 else
   puts "odd"
 end
+
+◯サイコロの裏の数字
+input_line = gets.to_i
+puts 7 - input_line 
