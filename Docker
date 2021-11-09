@@ -13,3 +13,15 @@ Dockerについて
 ◯Dockerのダウンロード
 ダウンロードする端末をホストOSと言う。
 ・Docker for Macをインストール
+
+
+◯コマンド
+pull イメージの取得
+create コンテナの作成
+start コンテナの起動
+docker run イメージ:タグ名　タグにバージョン名をつけるとき
+docker images イメージの一覧を表示
+tag イメージにタグをつける
+inspect イメージの詳細を表示
+rmi イメージを削除
+rmi -f 強制削除
