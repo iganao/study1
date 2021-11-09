@@ -27,3 +27,7 @@ rmi イメージを削除
 rmi -f 強制削除
 build イメージをビルドする
 login docker hubにログイン
+docker push dockerID/イメージ名:タグ名
+
+タグ付けルール
+docker id/イメージ名:タグ名
