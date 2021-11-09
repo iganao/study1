@@ -99,6 +99,10 @@ input_line = gets.to_i
 puts 7 - input_line 
 
 ◯eachメソッド
-（a） each do |i|
-のように（）が必要
+（1..10） each do |i|
+上記のように範囲を直接使う場合は（）が必要
+
+a = 1..10
+a each do |i|
+上記のように変数に当てはめて使う場合は（）がいらない
 
