@@ -25,3 +25,5 @@ tag イメージにタグをつける
 inspect イメージの詳細を表示
 rmi イメージを削除
 rmi -f 強制削除
+build イメージをビルドする
+login docker hubにログイン
