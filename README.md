@@ -97,3 +97,8 @@ end
 ◯サイコロの裏の数字
 input_line = gets.to_i
 puts 7 - input_line 
+
+◯eachメソッド
+（a） each do |i|
+のように（）が必要
+
