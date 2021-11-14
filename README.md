@@ -138,3 +138,68 @@ while i <= 5
 end
 
 変数iに1を代入し、変数iが5以下の間、iの値を出力したあと+1して再び条件式の評価へ戻るループ処理を行う。実行すると画面には1から5までの数字が表示される。
+
+
+◯FizzBuzz問題
+
+for文
+for i in 1..30
+
+    if i%15==0
+        puts "FizzBuzz!"
+    elsif i%3==0
+        puts "Fizz!"
+    elsif i%5==0 
+        puts "Buzz!"
+    else
+        puts i
+    end
+
+end
+
+uptoメソッド
+1.upto(30) do |i|
+
+    if i%15==0
+        puts "FizzBuzz!"
+    elsif i%3==0
+        puts "Fizz!"
+    elsif i%5==0 
+        puts "Buzz!"
+    else
+        puts i
+    end
+
+end
+
+eachメソッド
+(1..30).each do |i|
+
+
+    if i%15==0
+        puts "FizzBuzz!"
+    elsif i%3==0
+        puts "Fizz!"
+    elsif i%5==0 
+        puts "Buzz!"
+    else
+        puts i
+    end
+
+end
+
+timesメソッド
+1..30.times do |i|    
+
+    if i%15==0
+        puts "FizzBuzz!"
+    elsif i%3==0
+        puts "Fizz!"
+    elsif i%5==0 
+        puts "Buzz!"
+    else
+        puts i
+    end
+
+end
+
