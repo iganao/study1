@@ -144,7 +144,6 @@ end
 
 for文　　
 for i in 1..30
-
     if i%15==0
         puts "FizzBuzz!"
     elsif i%3==0
@@ -154,7 +153,6 @@ for i in 1..30
     else
         puts i
     end
-
 end
 
 uptoメソッド
