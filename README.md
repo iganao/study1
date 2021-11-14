@@ -143,8 +143,6 @@ end
 ◯FizzBuzz問題
 
 for文　　
-
-
 for i in 1..30
 
     if i%15==0
